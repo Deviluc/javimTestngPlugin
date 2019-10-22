@@ -1,0 +1,45 @@
+2019-03-26 07:36:17 INFO  =================== Log started =================== 
+2019-03-26 07:36:17 INFO  Using configdir: /home/friese/git/tbUiTestVimPlugin/plugin/~/.sqlworkbench 
+2019-03-26 07:36:17 INFO  Setting default locale to: en 
+2019-03-26 07:36:17 INFO  Starting SQL Workbench/J, Build 124 (2018-08-20 22:43) 
+2019-03-26 07:36:17 INFO  Java version=1.8.0_202, java.home=/usr/lib/jvm/java-8-jdk/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2019-03-26 07:36:17 INFO  Operating System=Linux, version=4.20.7-arch1-1-ARCH, platform=amd64 
+2019-03-26 07:36:17 INFO  Available memory: 1712MB 
+2019-03-26 07:36:17 INFO  The 'noSettings' option was specified on the commandline. Global settings will not be saved. 
+2019-03-26 07:36:17 INFO  Installed signal handler for INT 
+2019-03-26 07:36:17 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2019-03-26 07:36:17 INFO  Found 0 commands in 2ms 
+2019-03-26 07:36:17 INFO  SQL Workbench/J Console interface started 
+2019-03-26 07:36:17 INFO  Saved statement history to /home/friese/git/tbUiTestVimPlugin/plugin/~/.sqlworkbench/sqlworkbench_history.txt 
+2019-03-26 07:36:17 INFO  Stopping SQL Workbench/J, Build 124 
+2019-03-26 07:36:17 INFO  =================== Log stopped =================== 
+2019-05-31 07:55:44 INFO  =================== Log started =================== 
+2019-05-31 07:55:44 INFO  Using configdir: /home/friese/git/javimTestngPlugin/plugin/~/.sqlworkbench 
+2019-05-31 07:55:44 INFO  Setting default locale to: en 
+2019-05-31 07:55:44 INFO  Starting SQL Workbench/J, Build 124 (2018-08-20 22:43) 
+2019-05-31 07:55:44 INFO  Java version=1.8.0_202, java.home=/usr/lib/jvm/java-8-jdk/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2019-05-31 07:55:44 INFO  Operating System=Linux, version=4.20.7-arch1-1-ARCH, platform=amd64 
+2019-05-31 07:55:44 INFO  Available memory: 1712MB 
+2019-05-31 07:55:44 INFO  The 'noSettings' option was specified on the commandline. Global settings will not be saved. 
+2019-05-31 07:55:44 INFO  Installed signal handler for INT 
+2019-05-31 07:55:44 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2019-05-31 07:55:44 INFO  Found 0 commands in 2ms 
+2019-05-31 07:55:44 INFO  SQL Workbench/J Console interface started 
+2019-05-31 07:55:44 INFO  Loaded statement history from /home/friese/git/javimTestngPlugin/plugin/~/.sqlworkbench/sqlworkbench_history.txt 
+2019-05-31 07:55:44 INFO  Saved statement history to /home/friese/git/javimTestngPlugin/plugin/~/.sqlworkbench/sqlworkbench_history.txt 
+2019-05-31 07:55:44 INFO  Stopping SQL Workbench/J, Build 124 
+2019-05-31 07:55:44 INFO  =================== Log stopped =================== 
